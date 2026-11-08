@@ -1,5 +1,8 @@
 name: Pixel Git City
-description: Generate and commit a deterministic animated pixel city from public GitHub activity.
+description: Turn your GitHub activity into an animated isometric pixel-art city GIF for your profile README, updated daily.
+branding:
+  icon: map
+  color: purple
 inputs:
   username:
     description: GitHub username to visualize. Defaults to the repository owner.
