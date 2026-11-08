@@ -1,10 +1,8 @@
 # Git City
 
-**Your public GitHub activity, reimagined as an animated pixel-art city.**
+**What would your GitHub activity look like as a city?**
 
-Commits shape the skyline, programming languages give buildings their architecture, and your community brings the streets to life. Each city sits on a floating island with a river, a seeded coastline, and a **transparent background** that works on light and dark profile READMEs.
-
-Git City renders locally in Node.js, without a browser or a hosted image service. The same snapshot and settings produce the same city and GIF. By default, images are **960 × 540**, with native-resolution pixel detail and a looping animation.
+In Git City, your repositories become buildings, your languages shape the skyline, and your stars crown a landmark. Recent work sparks traffic and construction, while a long-running streak raises a lighthouse. Watch a quiet island grow into a bustling pixel-art city, complete with its own river, seasonal colors, and seeded coastline.
 
 [Examples](#example-cities) · [Get started](#get-started) · [Stats](#what-shapes-your-city) · [Visual wiki](#visual-wiki) · [Repository structure](#repository-structure)
 
@@ -72,7 +70,7 @@ For a browser preview with mock activity and switchable backgrounds, run `pnpm d
 ### Add a daily city to your GitHub profile
 
 1. Open your public profile repository: `YOUR_USERNAME/YOUR_USERNAME`.
-2. Copy [docs/git-city.yml](docs/git-city.yml) into that repository as `.github/workflows/git-city.yml`:
+2. Copy [git-city.yml](git-city.yml) into that repository as `.github/workflows/git-city.yml`:
 
 ```yaml
 name: Git City
