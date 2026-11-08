@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2b9a8f" />
+    <title>Git City Preview</title>
+  </head>
+  <body>
+    <main>
+      <h1>Git City</h1>
+      <canvas
+        id="city"
+        class="bg-teal"
+        width="950"
+        height="550"
+        aria-label="Animated isometric pixel city"
+      ></canvas>
+      <div class="backgrounds" role="group" aria-label="Preview background">
+        <button type="button" data-bg="teal">Teal</button>
+        <button type="button" data-bg="checker">Transparent</button>
+        <button type="button" data-bg="light">Light</button>
+        <button type="button" data-bg="dark">Dark</button>
+      </div>
+      <p class="hint">
+        Run <code>pnpm dev</code> to explore the rendering prototype.
+      </p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+    <style>
+      :root {
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        background: #f4f1ea;
+        color: #23303f;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+      main {
+        width: min(94vw, 980px);
+        text-align: center;
+      }
+      h1 {
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      canvas {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 1.5rem auto;
+        image-rendering: pixelated;
+        border-radius: 12px;
+      }
+      .bg-teal {
+        background: #2b9a8f;
+      }
+      .bg-light {
+        background: #ffffff;
+      }
+      .bg-dark {
+        background: #0d1117;
+      }
+      .bg-checker {
+        background: repeating-conic-gradient(#d9d9d9 0 25%, #ffffff 0 50%) 0 0 /
+          16px 16px;
+      }
+      .backgrounds button {
+        font: inherit;
+        margin: 0 0.25rem;
+        padding: 0.35rem 0.8rem;
+        border: 1px solid #23303f;
+        border-radius: 6px;
+        background: transparent;
+        cursor: pointer;
+      }
+      .hint {
+        color: #5b6575;
+      }
+    </style>
+  </body>
+</html>

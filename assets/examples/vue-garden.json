@@ -1,0 +1,108 @@
+{
+  "username": "example-vue",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 601,
+      "name": "garden-ui",
+      "fullName": "example-vue/garden-ui",
+      "description": "A Vue component library.",
+      "primaryLanguage": "Vue",
+      "languages": { "Vue": 30000, "TypeScript": 6000, "CSS": 4000 },
+      "stars": 75,
+      "forks": 18,
+      "openIssues": 5,
+      "openPullRequests": 3,
+      "commits": 150,
+      "commitsByDay": {
+        "2025-03-01": 40,
+        "2025-07-01": 50,
+        "2025-10-01": 52,
+        "2025-12-29": 2,
+        "2025-12-30": 3,
+        "2025-12-31": 3
+      },
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T12:00:00.000Z",
+      "topics": ["vue", "frontend"],
+      "coAuthors": ["example-designer"]
+    },
+    {
+      "id": 602,
+      "name": "storybook",
+      "fullName": "example-vue/storybook",
+      "description": "Interactive interface examples.",
+      "primaryLanguage": "TypeScript",
+      "languages": { "TypeScript": 10000, "HTML": 1000, "CSS": 2000 },
+      "stars": 36,
+      "forks": 6,
+      "openIssues": 3,
+      "openPullRequests": 1,
+      "commits": 100,
+      "commitsByDay": {
+        "2025-03-01": 30,
+        "2025-07-01": 30,
+        "2025-10-01": 34,
+        "2025-12-29": 2,
+        "2025-12-30": 2,
+        "2025-12-31": 2
+      },
+      "createdAt": "2024-06-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T10:00:00.000Z",
+      "topics": ["frontend"],
+      "coAuthors": []
+    },
+    {
+      "id": 603,
+      "name": "style-system",
+      "fullName": "example-vue/style-system",
+      "description": "Styles and design tokens.",
+      "primaryLanguage": "SCSS",
+      "languages": { "SCSS": 6000, "CSS": 2500 },
+      "stars": 19,
+      "forks": 3,
+      "openIssues": 1,
+      "openPullRequests": 2,
+      "commits": 70,
+      "commitsByDay": {
+        "2025-03-01": 20,
+        "2025-07-01": 20,
+        "2025-10-01": 26,
+        "2025-12-29": 1,
+        "2025-12-30": 1,
+        "2025-12-31": 2
+      },
+      "createdAt": "2025-02-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T09:00:00.000Z",
+      "topics": ["design"],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 320,
+  "commitsByDay": {
+    "2025-03-01": 90,
+    "2025-07-01": 100,
+    "2025-10-01": 112,
+    "2025-12-29": 5,
+    "2025-12-30": 6,
+    "2025-12-31": 7
+  },
+  "lastCommitAt": "2025-12-31T12:00:00.000Z",
+  "currentStreak": 3,
+  "longestStreak": 3,
+  "totalStars": 130,
+  "totalForks": 27,
+  "openIssues": 9,
+  "openPullRequests": 6,
+  "followers": 55,
+  "languages": {
+    "Vue": 30000,
+    "TypeScript": 16000,
+    "CSS": 8500,
+    "HTML": 1000,
+    "SCSS": 6000
+  },
+  "coAuthors": ["example-designer"],
+  "warnings": []
+}

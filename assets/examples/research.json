@@ -1,0 +1,99 @@
+{
+  "username": "night-lab",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 301,
+      "name": "shader-lab",
+      "fullName": "night-lab/shader-lab",
+      "description": null,
+      "primaryLanguage": "GLSL",
+      "languages": {
+        "GLSL": 7100
+      },
+      "stars": 88,
+      "forks": 23,
+      "openIssues": 5,
+      "openPullRequests": 3,
+      "commits": 120,
+      "commitsByDay": {},
+      "createdAt": "2025-01-01T00:00:00Z",
+      "pushedAt": "2025-12-31T00:00:00Z",
+      "topics": [
+        "research"
+      ],
+      "coAuthors": [
+        "lab-mate"
+      ]
+    },
+    {
+      "id": 302,
+      "name": "vision-model",
+      "fullName": "night-lab/vision-model",
+      "description": null,
+      "primaryLanguage": "Python",
+      "languages": {
+        "Python": 8400
+      },
+      "stars": 75,
+      "forks": 18,
+      "openIssues": 8,
+      "openPullRequests": 4,
+      "commits": 168,
+      "commitsByDay": {},
+      "createdAt": "2025-03-01T00:00:00Z",
+      "pushedAt": "2025-12-31T00:00:00Z",
+      "topics": [
+        "ml",
+        "experiment"
+      ],
+      "coAuthors": []
+    },
+    {
+      "id": 303,
+      "name": "render-core",
+      "fullName": "night-lab/render-core",
+      "description": null,
+      "primaryLanguage": "C++",
+      "languages": {
+        "C++": 5300
+      },
+      "stars": 42,
+      "forks": 11,
+      "openIssues": 3,
+      "openPullRequests": 2,
+      "commits": 75,
+      "commitsByDay": {},
+      "createdAt": "2025-04-01T00:00:00Z",
+      "pushedAt": "2025-12-30T00:00:00Z",
+      "topics": [
+        "gpu"
+      ],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 363,
+  "commitsByDay": {
+    "2025-12-29": 6,
+    "2025-12-30": 9,
+    "2025-12-31": 7
+  },
+  "lastCommitAt": "2025-12-31T23:00:00Z",
+  "currentStreak": 17,
+  "longestStreak": 39,
+  "totalStars": 205,
+  "totalForks": 52,
+  "openIssues": 16,
+  "openPullRequests": 9,
+  "followers": 40,
+  "languages": {
+    "GLSL": 7100,
+    "Python": 8400,
+    "C++": 5300
+  },
+  "coAuthors": [
+    "lab-mate"
+  ],
+  "warnings": []
+}

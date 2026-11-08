@@ -1,0 +1,60 @@
+name: Git City
+description: Generate and commit a deterministic animated pixel city from public GitHub activity.
+inputs:
+  username:
+    description: GitHub username to visualize. Defaults to the repository owner.
+    required: false
+    default: ${{ github.repository_owner }}
+  token:
+    description: Token used for the GitHub API (raises the rate limit).
+    required: false
+    default: ${{ github.token }}
+  output:
+    description: GIF path relative to the checked-out repository.
+    required: false
+    default: assets/city.gif
+  scale:
+    description: Detail level (1-4); renders natively at width/height times N with finer pixel art. 2 renders a 960x540 GIF.
+    required: false
+    default: "2"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v7
+      with:
+        node-version: 22
+    - name: Install and build Git City
+      shell: bash
+      working-directory: ${{ github.action_path }}
+      run: |
+        corepack enable
+        pnpm install --frozen-lockfile
+        pnpm build
+    - name: Generate city
+      shell: bash
+      env:
+        GIT_CITY_USER: ${{ inputs.username }}
+        GITHUB_TOKEN: ${{ inputs.token }}
+        GIT_CITY_OUTPUT: ${{ inputs.output }}
+        GIT_CITY_SCALE: ${{ inputs.scale }}
+      working-directory: ${{ github.workspace }}
+      run: |
+        node "${{ github.action_path }}/dist/src/cli.js" generate \
+          --user "$GIT_CITY_USER" \
+          --output "$GIT_CITY_OUTPUT" \
+          --scale "$GIT_CITY_SCALE"
+    - name: Commit changed city
+      shell: bash
+      env:
+        GIT_CITY_OUTPUT: ${{ inputs.output }}
+      working-directory: ${{ github.workspace }}
+      run: |
+        git add -- "$GIT_CITY_OUTPUT"
+        if git diff --cached --quiet; then
+          echo "Git City is unchanged; nothing to commit."
+          exit 0
+        fi
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git commit --quiet --message "chore: update git city"
+        git push --quiet

@@ -1,0 +1,44 @@
+{
+  "username": "quiet-coder",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 101,
+      "name": "garden-notes",
+      "fullName": "quiet-coder/garden-notes",
+      "description": null,
+      "primaryLanguage": "Python",
+      "languages": {
+        "Python": 2400
+      },
+      "stars": 2,
+      "forks": 0,
+      "openIssues": 0,
+      "openPullRequests": 0,
+      "commits": 8,
+      "commitsByDay": {},
+      "createdAt": "2023-02-01T00:00:00Z",
+      "pushedAt": "2025-12-30T00:00:00Z",
+      "topics": [],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 8,
+  "commitsByDay": {
+    "2025-12-30": 1
+  },
+  "lastCommitAt": "2025-12-30T12:00:00Z",
+  "currentStreak": 0,
+  "longestStreak": 2,
+  "totalStars": 2,
+  "totalForks": 0,
+  "openIssues": 0,
+  "openPullRequests": 0,
+  "followers": 3,
+  "languages": {
+    "Python": 2400
+  },
+  "coAuthors": [],
+  "warnings": []
+}

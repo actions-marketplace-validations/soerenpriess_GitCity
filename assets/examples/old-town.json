@@ -1,0 +1,206 @@
+{
+  "username": "example-legacy",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 801,
+      "name": "garden-api",
+      "fullName": "example-legacy/garden-api",
+      "description": "A modern TypeScript API.",
+      "primaryLanguage": "TypeScript",
+      "languages": {
+        "TypeScript": 24000,
+        "CSS": 3000
+      },
+      "stars": 48,
+      "forks": 9,
+      "openIssues": 4,
+      "openPullRequests": 2,
+      "commits": 89,
+      "commitsByDay": {
+        "2025-06-15": 4,
+        "2025-06-16": 4,
+        "2025-06-17": 4,
+        "2025-06-18": 4,
+        "2025-06-19": 4,
+        "2025-06-20": 4,
+        "2025-06-21": 4,
+        "2025-06-22": 4,
+        "2025-06-23": 4,
+        "2025-06-24": 4,
+        "2025-06-25": 4,
+        "2025-06-26": 4,
+        "2025-06-27": 4,
+        "2025-06-28": 4,
+        "2025-06-29": 4,
+        "2025-06-30": 4,
+        "2025-07-01": 4,
+        "2025-07-02": 4,
+        "2025-07-03": 4,
+        "2025-07-04": 4,
+        "2025-07-05": 4,
+        "2025-12-30": 2,
+        "2025-12-31": 3
+      },
+      "createdAt": "2025-01-10T00:00:00.000Z",
+      "pushedAt": "2025-12-31T12:00:00.000Z",
+      "topics": [
+        "api"
+      ],
+      "coAuthors": [
+        "example-gardener"
+      ]
+    },
+    {
+      "id": 802,
+      "name": "harvest-scripts",
+      "fullName": "example-legacy/harvest-scripts",
+      "description": "Python data jobs.",
+      "primaryLanguage": "Python",
+      "languages": {
+        "Python": 14000,
+        "Shell": 2000
+      },
+      "stars": 20,
+      "forks": 3,
+      "openIssues": 2,
+      "openPullRequests": 1,
+      "commits": 31,
+      "commitsByDay": {
+        "2025-07-20": 5,
+        "2025-07-21": 5,
+        "2025-07-22": 5,
+        "2025-07-23": 5,
+        "2025-07-24": 5,
+        "2025-07-25": 5,
+        "2025-12-31": 1
+      },
+      "createdAt": "2024-04-02T00:00:00.000Z",
+      "pushedAt": "2025-12-31T09:00:00.000Z",
+      "topics": [
+        "data"
+      ],
+      "coAuthors": []
+    },
+    {
+      "id": 803,
+      "name": "legacy-portal",
+      "fullName": "example-legacy/legacy-portal",
+      "description": "The old PHP customer portal.",
+      "primaryLanguage": "PHP",
+      "languages": {
+        "PHP": 30000,
+        "JavaScript": 6000
+      },
+      "stars": 75,
+      "forks": 22,
+      "openIssues": 9,
+      "openPullRequests": 0,
+      "commits": 0,
+      "commitsByDay": {},
+      "createdAt": "2016-03-01T00:00:00.000Z",
+      "pushedAt": "2022-05-01T10:00:00.000Z",
+      "topics": [
+        "php"
+      ],
+      "coAuthors": []
+    },
+    {
+      "id": 804,
+      "name": "jquery-carousel",
+      "fullName": "example-legacy/jquery-carousel",
+      "description": "A jQuery plugin from another era.",
+      "primaryLanguage": "JavaScript",
+      "languages": {
+        "JavaScript": 12000,
+        "CSS": 2500
+      },
+      "stars": 140,
+      "forks": 41,
+      "openIssues": 12,
+      "openPullRequests": 1,
+      "commits": 0,
+      "commitsByDay": {},
+      "createdAt": "2014-09-12T00:00:00.000Z",
+      "pushedAt": "2023-02-14T10:00:00.000Z",
+      "topics": [
+        "jquery"
+      ],
+      "coAuthors": []
+    },
+    {
+      "id": 805,
+      "name": "perl-reports",
+      "fullName": "example-legacy/perl-reports",
+      "description": "Nightly Perl reporting.",
+      "primaryLanguage": "Perl",
+      "languages": {
+        "Perl": 8000
+      },
+      "stars": 6,
+      "forks": 1,
+      "openIssues": 1,
+      "openPullRequests": 0,
+      "commits": 0,
+      "commitsByDay": {},
+      "createdAt": "2013-01-20T00:00:00.000Z",
+      "pushedAt": "2021-11-03T10:00:00.000Z",
+      "topics": [],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 120,
+  "commitsByDay": {
+    "2025-06-15": 4,
+    "2025-06-16": 4,
+    "2025-06-17": 4,
+    "2025-06-18": 4,
+    "2025-06-19": 4,
+    "2025-06-20": 4,
+    "2025-06-21": 4,
+    "2025-06-22": 4,
+    "2025-06-23": 4,
+    "2025-06-24": 4,
+    "2025-06-25": 4,
+    "2025-06-26": 4,
+    "2025-06-27": 4,
+    "2025-06-28": 4,
+    "2025-06-29": 4,
+    "2025-06-30": 4,
+    "2025-07-01": 4,
+    "2025-07-02": 4,
+    "2025-07-03": 4,
+    "2025-07-04": 4,
+    "2025-07-05": 4,
+    "2025-07-20": 5,
+    "2025-07-21": 5,
+    "2025-07-22": 5,
+    "2025-07-23": 5,
+    "2025-07-24": 5,
+    "2025-07-25": 5,
+    "2025-12-30": 2,
+    "2025-12-31": 4
+  },
+  "lastCommitAt": "2025-12-31T12:00:00.000Z",
+  "currentStreak": 2,
+  "longestStreak": 21,
+  "totalStars": 289,
+  "totalForks": 76,
+  "openIssues": 28,
+  "openPullRequests": 4,
+  "followers": 28,
+  "languages": {
+    "TypeScript": 24000,
+    "CSS": 5500,
+    "Python": 14000,
+    "Shell": 2000,
+    "PHP": 30000,
+    "JavaScript": 18000,
+    "Perl": 8000
+  },
+  "coAuthors": [
+    "example-gardener"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,102 @@
+{
+  "username": "example-sql",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 621,
+      "name": "data-warehouse",
+      "fullName": "example-sql/data-warehouse",
+      "description": "SQL models for a data warehouse.",
+      "primaryLanguage": "SQL",
+      "languages": { "SQL": 35000, "PLpgSQL": 8000, "Python": 5000 },
+      "stars": 80,
+      "forks": 20,
+      "openIssues": 6,
+      "openPullRequests": 3,
+      "commits": 160,
+      "commitsByDay": {
+        "2025-03-01": 40,
+        "2025-07-01": 52,
+        "2025-10-01": 60,
+        "2025-12-29": 2,
+        "2025-12-30": 3,
+        "2025-12-31": 3
+      },
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T10:00:00.000Z",
+      "topics": ["database"],
+      "coAuthors": ["example-analyst"]
+    },
+    {
+      "id": 622,
+      "name": "query-tools",
+      "fullName": "example-sql/query-tools",
+      "description": "Database procedures and queries.",
+      "primaryLanguage": "PLpgSQL",
+      "languages": { "PLpgSQL": 13000, "SQL": 6000 },
+      "stars": 45,
+      "forks": 12,
+      "openIssues": 3,
+      "openPullRequests": 2,
+      "commits": 110,
+      "commitsByDay": {
+        "2025-03-01": 30,
+        "2025-07-01": 33,
+        "2025-10-01": 40,
+        "2025-12-29": 2,
+        "2025-12-30": 2,
+        "2025-12-31": 3
+      },
+      "createdAt": "2024-06-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T09:00:00.000Z",
+      "topics": ["database"],
+      "coAuthors": []
+    },
+    {
+      "id": 623,
+      "name": "analysis-notes",
+      "fullName": "example-sql/analysis-notes",
+      "description": "Python analysis notebooks.",
+      "primaryLanguage": "Python",
+      "languages": { "Python": 12000, "SQL": 3000 },
+      "stars": 20,
+      "forks": 6,
+      "openIssues": 2,
+      "openPullRequests": 1,
+      "commits": 70,
+      "commitsByDay": {
+        "2025-03-01": 20,
+        "2025-07-01": 21,
+        "2025-10-01": 25,
+        "2025-12-29": 1,
+        "2025-12-30": 1,
+        "2025-12-31": 2
+      },
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T08:00:00.000Z",
+      "topics": ["research"],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 340,
+  "commitsByDay": {
+    "2025-03-01": 90,
+    "2025-07-01": 106,
+    "2025-10-01": 125,
+    "2025-12-29": 5,
+    "2025-12-30": 6,
+    "2025-12-31": 8
+  },
+  "lastCommitAt": "2025-12-31T10:00:00.000Z",
+  "currentStreak": 3,
+  "longestStreak": 3,
+  "totalStars": 145,
+  "totalForks": 38,
+  "openIssues": 11,
+  "openPullRequests": 6,
+  "followers": 60,
+  "languages": { "SQL": 44000, "PLpgSQL": 21000, "Python": 17000 },
+  "coAuthors": ["example-analyst"],
+  "warnings": []
+}

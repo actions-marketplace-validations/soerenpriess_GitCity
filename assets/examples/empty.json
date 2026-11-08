@@ -1,0 +1,19 @@
+{
+  "username": "fresh-account",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "totalCommits": 0,
+  "commitsByDay": {},
+  "lastCommitAt": null,
+  "currentStreak": 0,
+  "longestStreak": 0,
+  "totalStars": 0,
+  "totalForks": 0,
+  "openIssues": 0,
+  "openPullRequests": 0,
+  "followers": 0,
+  "languages": {},
+  "repositories": [],
+  "coAuthors": [],
+  "warnings": []
+}

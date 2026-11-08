@@ -1,0 +1,107 @@
+{
+  "username": "example-shell",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 611,
+      "name": "build-pipelines",
+      "fullName": "example-shell/build-pipelines",
+      "description": "Shell-based automation.",
+      "primaryLanguage": "Shell",
+      "languages": { "Shell": 26000, "PowerShell": 4000 },
+      "stars": 60,
+      "forks": 15,
+      "openIssues": 7,
+      "openPullRequests": 3,
+      "commits": 145,
+      "commitsByDay": {
+        "2025-03-10": 38,
+        "2025-07-01": 50,
+        "2025-10-01": 50,
+        "2025-12-29": 2,
+        "2025-12-30": 3,
+        "2025-12-31": 2
+      },
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T11:00:00.000Z",
+      "topics": ["shell", "automation"],
+      "coAuthors": ["example-operator"]
+    },
+    {
+      "id": 612,
+      "name": "service-console",
+      "fullName": "example-shell/service-console",
+      "description": "PowerShell tools for services.",
+      "primaryLanguage": "PowerShell",
+      "languages": { "PowerShell": 12000, "HCL": 3000 },
+      "stars": 35,
+      "forks": 8,
+      "openIssues": 3,
+      "openPullRequests": 2,
+      "commits": 95,
+      "commitsByDay": {
+        "2025-03-10": 25,
+        "2025-07-01": 30,
+        "2025-10-01": 35,
+        "2025-12-29": 1,
+        "2025-12-30": 2,
+        "2025-12-31": 2
+      },
+      "createdAt": "2024-07-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T10:00:00.000Z",
+      "topics": ["cli"],
+      "coAuthors": []
+    },
+    {
+      "id": 613,
+      "name": "infrastructure",
+      "fullName": "example-shell/infrastructure",
+      "description": "Infrastructure configuration.",
+      "primaryLanguage": "HCL",
+      "languages": { "HCL": 7500, "Dockerfile": 4000, "Shell": 4000 },
+      "stars": 15,
+      "forks": 4,
+      "openIssues": 2,
+      "openPullRequests": 1,
+      "commits": 60,
+      "commitsByDay": {
+        "2025-03-10": 17,
+        "2025-07-01": 20,
+        "2025-10-01": 20,
+        "2025-12-29": 1,
+        "2025-12-30": 1,
+        "2025-12-31": 1
+      },
+      "createdAt": "2025-03-01T00:00:00.000Z",
+      "pushedAt": "2025-12-31T09:00:00.000Z",
+      "topics": ["infrastructure"],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 300,
+  "commitsByDay": {
+    "2025-03-10": 80,
+    "2025-07-01": 100,
+    "2025-10-01": 105,
+    "2025-12-29": 4,
+    "2025-12-30": 6,
+    "2025-12-31": 5
+  },
+  "lastCommitAt": "2025-12-31T11:00:00.000Z",
+  "currentStreak": 3,
+  "longestStreak": 3,
+  "totalStars": 110,
+  "totalForks": 27,
+  "openIssues": 12,
+  "openPullRequests": 6,
+  "followers": 35,
+  "languages": {
+    "Shell": 30000,
+    "PowerShell": 16000,
+    "HCL": 10500,
+    "Dockerfile": 4000
+  },
+  "coAuthors": ["example-operator"],
+  "warnings": []
+}

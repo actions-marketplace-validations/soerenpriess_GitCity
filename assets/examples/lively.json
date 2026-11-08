@@ -1,0 +1,96 @@
+{
+  "username": "lively-coder",
+  "fetchedAt": "2026-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [
+    {
+      "id": 201,
+      "name": "city-engine",
+      "fullName": "lively-coder/city-engine",
+      "description": null,
+      "primaryLanguage": "TypeScript",
+      "languages": {
+        "TypeScript": 9200
+      },
+      "stars": 116,
+      "forks": 29,
+      "openIssues": 8,
+      "openPullRequests": 6,
+      "commits": 180,
+      "commitsByDay": {},
+      "createdAt": "2024-01-01T00:00:00Z",
+      "pushedAt": "2025-12-31T00:00:00Z",
+      "topics": [
+        "creative-coding"
+      ],
+      "coAuthors": [
+        "friend"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "data-garden",
+      "fullName": "lively-coder/data-garden",
+      "description": null,
+      "primaryLanguage": "Python",
+      "languages": {
+        "Python": 6100
+      },
+      "stars": 52,
+      "forks": 12,
+      "openIssues": 4,
+      "openPullRequests": 2,
+      "commits": 140,
+      "commitsByDay": {},
+      "createdAt": "2024-06-01T00:00:00Z",
+      "pushedAt": "2025-12-31T00:00:00Z",
+      "topics": [
+        "research"
+      ],
+      "coAuthors": []
+    },
+    {
+      "id": 203,
+      "name": "pixel-shop",
+      "fullName": "lively-coder/pixel-shop",
+      "description": null,
+      "primaryLanguage": "Rust",
+      "languages": {
+        "Rust": 5200
+      },
+      "stars": 37,
+      "forks": 9,
+      "openIssues": 2,
+      "openPullRequests": 1,
+      "commits": 96,
+      "commitsByDay": {},
+      "createdAt": "2025-02-01T00:00:00Z",
+      "pushedAt": "2025-12-31T00:00:00Z",
+      "topics": [],
+      "coAuthors": []
+    }
+  ],
+  "totalCommits": 416,
+  "commitsByDay": {
+    "2025-12-29": 8,
+    "2025-12-30": 10,
+    "2025-12-31": 12
+  },
+  "lastCommitAt": "2025-12-31T12:00:00Z",
+  "currentStreak": 21,
+  "longestStreak": 45,
+  "totalStars": 205,
+  "totalForks": 50,
+  "openIssues": 14,
+  "openPullRequests": 9,
+  "followers": 180,
+  "languages": {
+    "TypeScript": 9200,
+    "Python": 6100,
+    "Rust": 5200
+  },
+  "coAuthors": [
+    "friend"
+  ],
+  "warnings": []
+}

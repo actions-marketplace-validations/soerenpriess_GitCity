@@ -1,0 +1,93 @@
+{
+  "ground": {
+    "grass": "#8fcb6b",
+    "rim": "#79b85a",
+    "park": "#7cc25c",
+    "plaza": "#e6dfcf",
+    "construction": "#c9a878",
+    "sidewalk": "#d6cfbf",
+    "asphalt": "#5d6475",
+    "marking": "#ece6d6",
+    "promenade": "#e3d6bd",
+    "quay": "#a89f8f",
+    "water": "#4aa3df",
+    "waterDeep": "#3b8fcc",
+    "shimmer": "#a6dcf7",
+    "soil": "#9b7653",
+    "soilDark": "#7b5b40",
+    "bedrock": "#5f5a66"
+  },
+  "architectures": {
+    "glass": {
+      "architecture": "glass",
+      "facade": "#5b9be6",
+      "accent": "#eef9ff"
+    },
+    "eco": {
+      "architecture": "eco",
+      "facade": "#efe2c4",
+      "accent": "#ffd66b"
+    },
+    "industrial": {
+      "architecture": "industrial",
+      "facade": "#9aa3ad",
+      "accent": "#c4562a"
+    },
+    "functional": {
+      "architecture": "functional",
+      "facade": "#e8f1f4",
+      "accent": "#00add8"
+    },
+    "monolith": {
+      "architecture": "monolith",
+      "facade": "#c98b5b",
+      "accent": "#f2dcc0"
+    },
+    "tech": {
+      "architecture": "tech",
+      "facade": "#5b6472",
+      "accent": "#5df28a"
+    },
+    "creative": {
+      "architecture": "creative",
+      "facade": "#f07aa0",
+      "accent": "#ffe066"
+    },
+    "neon": {
+      "architecture": "neon",
+      "facade": "#2c2745",
+      "accent": "#7df9ff"
+    },
+    "library": {
+      "architecture": "library",
+      "facade": "#efe4cc",
+      "accent": "#c0533a"
+    },
+    "operations": {
+      "architecture": "operations",
+      "facade": "#68758a",
+      "accent": "#f2b632"
+    },
+    "data": {
+      "architecture": "data",
+      "facade": "#4b8d9c",
+      "accent": "#7df9d2"
+    },
+    "brick": {
+      "architecture": "brick",
+      "facade": "#b5654a",
+      "accent": "#e9e1d2"
+    }
+  },
+  "cranes": ["#f2b632", "#e8743b", "#e04f5f"],
+  "boats": ["#f7f3ea", "#e04f5f", "#f2c94c", "#4f8fe0"],
+  "vehicles": [
+    "#e04f5f",
+    "#f7f3ea",
+    "#4f8fe0",
+    "#f2c94c",
+    "#3fb39d",
+    "#9b6bd6"
+  ],
+  "landmarkStar": "#ffd34d"
+}

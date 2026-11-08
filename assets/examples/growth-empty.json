@@ -1,0 +1,19 @@
+{
+  "username": "growth-dev",
+  "fetchedAt": "2023-01-01T00:00:00.000Z",
+  "periodDays": 365,
+  "repositories": [],
+  "totalCommits": 0,
+  "commitsByDay": {},
+  "lastCommitAt": null,
+  "currentStreak": 0,
+  "longestStreak": 0,
+  "totalStars": 0,
+  "totalForks": 0,
+  "openIssues": 0,
+  "openPullRequests": 0,
+  "followers": 0,
+  "languages": {},
+  "coAuthors": [],
+  "warnings": []
+}

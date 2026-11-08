@@ -1,0 +1,25 @@
+# Copy into your profile repository as .github/workflows/git-city.yml, then embed
+# <img src="assets/city.gif" width="960" alt="My Git City"> in its README.md.
+name: Git City
+
+on:
+  schedule:
+    # Shortly after midnight UTC, so the city includes the day that just ended.
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/git-city.yml]
+
+permissions:
+  contents: write
+
+concurrency: git-city
+
+jobs:
+  city:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: soerenpriess/GitCity@main
+        with:
+          output: assets/city.gif
