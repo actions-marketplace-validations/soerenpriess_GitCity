@@ -1,4 +1,4 @@
-name: Git City
+name: Pixel Git City
 description: Generate and commit a deterministic animated pixel city from public GitHub activity.
 inputs:
   username:
